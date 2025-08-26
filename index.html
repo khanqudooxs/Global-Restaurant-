@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{background-color:gray
+}
+ul{
+list-style-type: none;
+margin: 30; 
+pandding:30;
+overflow: hidden;
+background-color: blue;
+}
+li{
+float:left ;
+}
+li a {
+display: block;
+color: rgb(253, 119, 23);flo
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+
+li a:hover {
+  background-color: #58fc2f;
+}
+
+</style>
+</head>
+<body>
+
+<h1 style="background-color: red; text-align: center;">Global Tastes</h1>
+
+<p style="background-color: aqua; text-align: center;"> Delicious meals from around the world, served fresh!.</p>
+
+<nav>
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="menu.html">Menu</a></li>
+  <li><a href="contect.html">Contact</a></li>
+  <li><a href="About us.html">About</a></li>
+
+</ul>
+</nav><br>
+<img src="b.jpg">
+<img src="c.jpg">
+<img src="d(6).jpg"><br>
+<img src="images (5).jpg">
+<img src="q.jpg"><br>
+
+  <meta charset="utf-8" />
+  <title>Buttons</title>
+  <style>
+    body {
+      text-align: center;
+      padding: 50px;
+      
+    }
+
+    .btn {
+      background: #007BFF;
+      color: rgb(203, 104, 23);
+      border: none;
+      padding: 12px 20px;
+      margin: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+
+    .btn:active {
+      transform: scale(0.96);
+    }
+  </style>
+</head>
+<body>
+
+  <button class="btn" onclick="goBack()">⬅ Back</button>
+  <button class="btn" onclick="prevPage()">⬅ Previous</button>
+  <button class="btn" onclick="nextPage()">Next ➡</button>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+
+    function prevPage() {
+      // apna link dalen
+      window.location.href = "previous.html";
+    }
+
+    function nextPage() {
+      // apna link dalen
+      window.location.href = "next.html";
+    }
+  </script>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Tastes</title>
+  <!-- yahan apka main content hoga -->
+
+  <!-- Footer -->
+  <footer style="background:#222; color:#fff; text-align:center; padding:20px;">
+
+    <h3>Global Tastes</h3>
+    <p>Delicious meals from around the world.</p>
+
+    <p>📍 Talka Mirpur Mathelo, District Ghotki, Sindh, Pakistan</p>
+    <p>📞 Phone: 0303-3745982 | WhatsApp: 0303-3745892</p>
+    <p>📧 Email: qudooskhan550@gmail.com</p>
+
+    <p>🌐 Follow us: 
+      <a href="#" style="color:#fff; text-decoration:none;">Facebook</a> | 
+      <a href="#" style="color:#fff; text-decoration:none;">Instagram</a>
+    </p>
+
+    <p style="margin-top:10px; font-size:14px;">© 2025 Abdul Qudoos — All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
